@@ -11,6 +11,9 @@
         <squareBlock class="rotate" />
       </box>
       <box>
+        <squareBlock class="rotate-reverse" />
+      </box>
+      <box>
         <squareBlock class="move" />
       </box>
       <box>
