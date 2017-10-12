@@ -9,8 +9,9 @@ import './styles/index.less'
 import './styles/point.less'
 import './styles/rotate.less'
 import './styles/move.less'
-import './styles/move2.less'
 import './styles/scale.less'
+import './styles/bubble.less'
+import './styles/shake.less'
 
 /* eslint-disable no-new */
 new Vue({

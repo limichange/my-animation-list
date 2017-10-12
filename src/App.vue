@@ -22,6 +22,15 @@
       <box>
         <circleBlock class="scale" />
       </box>
+      <box>
+        <circleBlock class="bubble" />
+      </box>
+      <box>
+        <squareBlock class="shake" />
+      </box>
+      <box>
+        <squareBlock class="shake2" />
+      </box>
     </div>
   </div>
 </template>

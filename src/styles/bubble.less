@@ -1,0 +1,30 @@
+
+.bubble {
+  animation: bubble 5s infinite linear;
+}
+
+@keyframes bubble {
+  to, from {
+    transform: translate3d(-4px, 5px, 1px) scale(.8);
+  }
+
+  10% {
+    transform: translate3d(2px, -12px, 5px) scale(.9);
+  }
+
+  30% {
+    transform: translate3d(12px, 10px, -8px) scale(1);
+  }
+
+  50% {
+    transform: translate3d(5px, 9px, 0) scale(.85);
+  }
+
+  70% {
+    transform: translate3d(-5px, 4px, 2px) scale(.9);
+  }
+
+  90% {
+    transform: translate3d(-15px, -9px, 3px) scale(.85);
+  }
+}
