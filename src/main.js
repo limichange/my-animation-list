@@ -27,9 +27,6 @@ import './styles/shake2.css'
 import './styles/spin.css'
 import './styles/swing.css'
 
-import css from './styles/index'
-console.log(css)
-
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
