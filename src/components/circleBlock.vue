@@ -1,17 +1,19 @@
 <template>
-  <div class="square"></div>
+  <div class="circleBlock">
+  </div>
 </template>
 
 <script>
 export default {
-  name: 'square'
+  name: 'circleBlock'
 }
 </script>
 
 <style lang="less" scoped>
-.square {
-  width: 100px;
-  height: 100px;
+.circleBlock {
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
   background-color: #4fc08d;
 }
 </style>

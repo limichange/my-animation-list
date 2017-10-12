@@ -11,6 +11,7 @@
     "lint": "eslint --ext .js,.vue src"
   },
   "dependencies": {
+    "normalize.css": "^7.0.0",
     "vue": "^2.4.2"
   },
   "devDependencies": {

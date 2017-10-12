@@ -2,36 +2,38 @@
   <div id="app">
     <div class="list">
       <box>
-        <square class="arrow" />
+        <squareBlock class="arrow" />
       </box>
       <box>
-        <square class="point" />
+        <squareBlock class="point" />
       </box>
       <box>
-        <square class="rotate" />
+        <squareBlock class="rotate" />
       </box>
       <box>
-        <square class="move" />
+        <squareBlock class="move" />
       </box>
       <box>
-        <square class="move2" />
+        <squareBlock class="move2" />
       </box>
       <box>
-        <square class="scale" />
+        <circleBlock class="scale" />
       </box>
     </div>
   </div>
 </template>
 
 <script>
-import square from './components/square'
+import squareBlock from './components/squareBlock'
 import box from './components/box'
+import circleBlock from './components/circleBlock'
 
 export default {
   name: 'app',
   components: {
-    square,
-    box
+    squareBlock,
+    box,
+    circleBlock
   }
 }
 </script>
@@ -44,6 +46,9 @@ export default {
 }
 
 .list {
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
   display: flex;
 }
 </style>

@@ -3,6 +3,8 @@
 import Vue from 'vue'
 import App from './App'
 
+import 'normalize.css'
+
 import './styles/index.less'
 import './styles/point.less'
 import './styles/rotate.less'
