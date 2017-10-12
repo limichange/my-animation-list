@@ -84,7 +84,7 @@ header {
   justify-content: space-between;
   align-items: center;
 
-  @media (max-width: 800px) {
+  @media (max-width: 1000px) {
     display: block;
   }
 
