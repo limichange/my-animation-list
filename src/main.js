@@ -12,6 +12,10 @@ import './styles/move.less'
 import './styles/scale.less'
 import './styles/bubble.less'
 import './styles/shake.less'
+import './styles/swing.less'
+import './styles/fade.less'
+import './styles/spin.less'
+import './styles/fold.less'
 
 /* eslint-disable no-new */
 new Vue({

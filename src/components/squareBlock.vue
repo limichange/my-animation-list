@@ -10,8 +10,9 @@ export default {
 
 <style lang="less" scoped>
 .square {
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
   background-color: #4fc08d;
 }
 </style>

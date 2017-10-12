@@ -11,9 +11,9 @@ export default {
 
 <style lang="less" scoped>
 .circleBlock {
-  width: 60px;
-  height: 60px;
-  border-radius: 60px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
   background-color: #4fc08d;
 }
 </style>

@@ -1,0 +1,33 @@
+.fade {
+  animation: fade 1.8s infinite linear both;
+}
+
+@keyframes fade {
+  from, to {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+.fade2 {
+  animation: fade2 1.8s infinite linear both;
+}
+
+@keyframes fade2 {
+  from {
+    opacity: 0;
+    transform: translate3d(50px, 0, 0);
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    transform: translate3d(-50px, 0, 0);
+  }
+}
