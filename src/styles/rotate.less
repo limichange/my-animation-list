@@ -53,3 +53,18 @@
     transform: rotate(360deg) translate3d(-50px, 0, 0);
   }
 }
+
+.rotate-center {
+  animation: rotate-center 1s infinite linear both;
+  transform-origin: 80% 80%;
+}
+
+@keyframes rotate-center {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

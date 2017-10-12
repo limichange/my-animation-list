@@ -17,7 +17,10 @@
       <box><squareBlock class="fade2" /></box>
       <box><squareBlock class="rotate-move" /></box>
       <box><squareBlock class="spin" /></box>
+      <box><circleBlock class="rotate-center" /></box>
       <box><squareBlock class="fold" /></box>
+      <box><squareBlock class="move3" /></box>
+      <box><squareBlock class="change" /></box>
     </div>
   </div>
 </template>

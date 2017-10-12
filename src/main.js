@@ -16,6 +16,7 @@ import './styles/swing.less'
 import './styles/fade.less'
 import './styles/spin.less'
 import './styles/fold.less'
+import './styles/change.less'
 
 /* eslint-disable no-new */
 new Vue({
