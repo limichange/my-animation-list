@@ -5,6 +5,7 @@
   "author": "limichange <limichange@hotmail.com>",
   "private": true,
   "scripts": {
+    "deploy": "npm run build && gh-pages -d dist",
     "dev": "node build/dev-server.js",
     "start": "npm run dev",
     "build": "node build/build.js",
@@ -41,6 +42,7 @@
     "extract-text-webpack-plugin": "^3.0.0",
     "file-loader": "^1.1.4",
     "friendly-errors-webpack-plugin": "^1.6.1",
+    "gh-pages": "^1.0.0",
     "html-webpack-plugin": "^2.30.1",
     "http-proxy-middleware": "^0.17.3",
     "less": "^3.0.0-alpha.3",

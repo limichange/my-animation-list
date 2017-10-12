@@ -20,6 +20,7 @@ export default {
 
 <style lang="less" scoped>
 .box {
+  overflow: hidden;
   position: relative;
   display: flex;
   justify-content: center;
