@@ -44,7 +44,7 @@ export default {
 
 <style lang="less" scoped>
 .btn {
-  width: 130px;
+  width: 180px;
   text-align: center;
 }
 
