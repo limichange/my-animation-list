@@ -2,23 +2,52 @@
   <div class="box">
     <slot />
     <div class="cover">
-      <btn>Show CSS</btn>
-      <btn>Copy CSS</btn>
+      <btn class="btn" @click.native="copy">
+        {{ text }}
+      </btn>
     </div>
   </div>
 </template>
 
 <script>
 import btn from './button'
+import copy from '../utils/copy'
+
 export default {
   name: 'box',
+  props: {
+    cssRaw: {
+      type: String,
+      default: ''
+    }
+  },
   components: {
     btn
+  },
+  data () {
+    return {
+      text: 'Copy CSS'
+    }
+  },
+  methods: {
+    copy () {
+      copy('test')
+      this.text = ' 👌 '
+
+      setTimeout(() => {
+        this.text = 'Copy CSS'
+      }, 1000)
+    }
   }
 }
 </script>
 
 <style lang="less" scoped>
+.btn {
+  width: 130px;
+  text-align: center;
+}
+
 .box {
   overflow: hidden;
   position: relative;

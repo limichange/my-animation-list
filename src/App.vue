@@ -1,5 +1,18 @@
 <template>
   <div id="app">
+    <header>
+      <div>
+        <h1>Animation List</h1>
+      </div>
+      <div>
+        <btn>
+          <a target="_blank" href="https://github.com/limichange/my-animation-website">Github</a>
+        </btn>
+        <btn>
+          <a target="_blank" href="https://github.com/limichange/my-animation-website/issues/new">Need more? Tell me</a>
+        </btn>
+      </div>
+    </header>
     <div class="list">
       <box><squareBlock class="arrow" /></box>
       <box><circleBlock class="point" /></box>
@@ -29,22 +42,48 @@
 import squareBlock from './components/squareBlock'
 import box from './components/box'
 import circleBlock from './components/circleBlock'
+import btn from './components/button'
 
 export default {
   name: 'app',
   components: {
     squareBlock,
     box,
-    circleBlock
+    circleBlock,
+    btn
   }
 }
 </script>
 
-<style>
+<style lang="less">
 #app {
   font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;  -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #34495e;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @media (max-width: 900px) {
+    display: block;
+  }
+
+  & > div {
+    margin: 0 70px;
+  }
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 3em;
 }
 
 .list {
