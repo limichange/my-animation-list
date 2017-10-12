@@ -1,0 +1,13 @@
+.shake {
+  animation: shake .4s infinite linear both;
+}
+
+@keyframes shake {
+  from, to {
+    transform: rotate(-15deg);
+  }
+
+  50% {
+    transform: rotate(15deg);
+  }
+}

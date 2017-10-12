@@ -1,18 +1,13 @@
-
 .change {
   animation: change 2s infinite linear;
 }
 
 @keyframes change {
-  to  {
+  from, to  {
     transform: rotateY(0deg)
   }
 
   50% {
     transform: rotateY(180deg)
-  }
-
-  from {
-    transform: rotateY(0)
   }
 }

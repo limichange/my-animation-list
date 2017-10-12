@@ -1,0 +1,13 @@
+.change2 {
+  animation: change2 2s infinite linear;
+}
+
+@keyframes change2 {
+  from  {
+    transform: rotate3d(0, 0, 0, 0deg);
+  }
+
+  to {
+    transform: rotate3d(1, 1, 1, 360deg);
+  }
+}

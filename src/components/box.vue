@@ -31,7 +31,7 @@ export default {
   },
   methods: {
     copy () {
-      copy('test')
+      copy(this.cssRaw)
       this.text = ' 👌 '
 
       setTimeout(() => {

@@ -1,0 +1,13 @@
+.rotate-move {
+  animation: rotate-move 1.8s infinite linear both;
+}
+
+@keyframes rotate-move {
+  from, to {
+    transform: rotate(0deg) translate3d(50px, 0, 0);
+  }
+
+  50% {
+    transform: rotate(360deg) translate3d(-50px, 0, 0);
+  }
+}

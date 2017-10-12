@@ -1,0 +1,13 @@
+.move {
+  animation: move 1.8s infinite linear both;
+}
+
+@keyframes move {
+  from, to {
+    transform: translate3d(0, 50px, 0);
+  }
+
+  50% {
+    transform: translate3d(0, -50px, 0);
+  }
+}

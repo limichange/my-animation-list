@@ -1,0 +1,21 @@
+.move3 {
+  animation: move3 1.8s infinite linear both;
+}
+
+@keyframes move3 {
+  from, to {
+    transform: translate3d(20px, 20px, 0);
+  }
+
+  25% {
+    transform: translate3d(-20px, 20px, 0);
+  }
+
+  50% {
+    transform: translate3d(-20px, -20px, 0);
+  }
+
+  75% {
+    transform: translate3d(20px, -20px, 0);
+  }
+}
