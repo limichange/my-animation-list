@@ -5,11 +5,10 @@
         <h1>My Animation List</h1>
       </div>
       <div>
-        <a target="_blank" href="https://github.com/limichange/my-animation-website">
+        <a target="_blank" href="https://github.com/limichange/my-animation-list">
           <btn> Github </btn>
         </a>
-
-        <a target="_blank" href="https://github.com/limichange/my-animation-website/issues/new">
+        <a target="_blank" href="https://github.com/limichange/my-animation-list/issues/new">
           <btn> Need more? Tell me </btn>
         </a>
       </div>
