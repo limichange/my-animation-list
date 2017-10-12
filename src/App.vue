@@ -2,7 +2,7 @@
   <div id="app">
     <header>
       <div>
-        <h1>Animation List</h1>
+        <h1>My Animation List</h1>
       </div>
       <div>
         <a target="_blank" href="https://github.com/limichange/my-animation-website">
