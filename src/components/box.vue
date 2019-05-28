@@ -32,7 +32,7 @@ export default {
   methods: {
     copy () {
       copy(this.cssRaw)
-      this.text = ' 👌 '
+      this.text = 'Copied!'
 
       setTimeout(() => {
         this.text = 'Copy CSS'
