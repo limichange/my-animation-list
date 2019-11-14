@@ -26,6 +26,7 @@ import './styles/shake.css'
 import './styles/shake2.css'
 import './styles/spin.css'
 import './styles/swing.css'
+import './styles/notify.css'
 
 /* eslint-disable no-new */
 new Vue({

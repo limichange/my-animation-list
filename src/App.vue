@@ -35,6 +35,7 @@
       <box :cssRaw="cssRaw.move3"><squareBlock class="move3" /></box>
       <box :cssRaw="cssRaw.change"><squareBlock class="change" /></box>
       <box :cssRaw="cssRaw.change2"><squareBlock class="change2" /></box>
+      <box :cssRaw="cssRaw.point"><circleBlock class="notify" /></box>
     </div>
   </div>
 </template>

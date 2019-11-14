@@ -1,0 +1,11 @@
+.notify {
+    background: initial !important;
+    border: 3px solid #4fc08d;
+    border-radius: 50%;
+    animation: ntfy 1.8s cubic-bezier(0.55, 0.09, 0.68, 0.53) infinite;
+  }
+  
+  @keyframes ntfy {
+    25% {border: 10px solid #4fc08d; background: #4fc08d;}
+    50% {border: 3px solid #4fc08d; background: initial;}
+  }
